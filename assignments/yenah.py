@@ -20,5 +20,3 @@ while True:
         break
     else:
         print("Invalid choice! Please enter either 'y' for yes or 'n' for no.")
-
-    
