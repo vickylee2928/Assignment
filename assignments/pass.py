@@ -47,4 +47,4 @@ while not strong_password:
 
         if not has_digit:
             print("Need at least one number")
-        print("Please try again.\n")
+        print("Please try again.")
