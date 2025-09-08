@@ -13,14 +13,15 @@ print("1. Check Balance")
 print("2. Deposit")
 print("3. Withdraw")
 
+
 #Ask user for their choice 
 choice = int(input("Choose an option: "))
 
-if choice ==1:
+if choice == 1:
     #option 1: Show balance
     print(f"Your balance is: ${balance}")
 
-elif choice ==2:
+elif choice == 2:
     #option 2: Deposit money
     amount =int(input("Enter deposit amount: $"))
     balance += amount
@@ -34,6 +35,6 @@ elif choice == 3:
         print(f"Transaction successful! New balance: ${balance}")
     else:
         print("Insufficient funds!")
-
+    
 else:
     print("Invalid option.")
