@@ -49,12 +49,15 @@ def display_students():
 
 # ---------------- Example Usage ----------------
 
-add_student("Alice")
-add_student("Bob")
-add_grade("Alice", 85)
-add_grade("Alice", 90)
-add_grade("Bob", 70)
-add_grade("Bob", 75)
+add_student("Royalty")
+add_student("Xavier")
+add_student("Treasure")
+add_grade("Royalty", 85)
+add_grade("Royalty", 90)
+add_grade("Xavier", 10)
+add_grade("Xavier", 30)
+add_grade("Treasure", 70)
+add_grade("Treasure", 80)
 
 display_students()
 
