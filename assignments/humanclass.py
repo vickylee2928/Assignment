@@ -6,14 +6,7 @@ Then it creates an object (person) and demonstrates how to use it.
 
 class Human:
 
-    # The Human class is a blueprint for creating human objects.
-    # It contains attributes (eyes, hair_color, legs, gender, height)
-    # and methods (walking, speaking, breathing).
-    
-
-    def __init__(self, eyes, hair_color, legs, gender, height):
-        
-       # __init__ is the constructor method.
+# __init__ is the constructor method.
        # It runs automatically when you create a new Human object.
        # Parameters:
        #   - eyes: number of eyes
@@ -22,21 +15,19 @@ class Human:
        #   - gender: male or female
        #   - height: height of the human
        # self is used to store these values in the object.
+
+    def __init__(self, eyes,  hair_color, legs,  gender, height):
         
         self.eyes = eyes
         self.hair_color = hair_color
         self.legs = legs
         self.gender = gender
         self.height = height
-
     def walking(self): #This method prints a message to show the human is walking.
         print("I am walking")
 
     def speaking(self):#This method prints a message to show the human is talking.
         print("I am talking")
-
-    def breathing(self):#This method prints a message to show the human is breathing.
-        print("I am breathing")
 
 
 # ---------------- Example usage ----------------
@@ -45,6 +36,7 @@ class Human:
 Here we create an object 'person' from the Human class.
 We pass values for eyes, hair_color, legs, gender, and height.
 """
+
 person = Human(2, "black", 2, "female", "5.6ft")
 
 """
@@ -63,4 +55,3 @@ Each method prints a message when called.
 """
 person.walking()   # Prints "I am walking"
 person.speaking()  # Prints "I am talking"
-person.breathing() # Prints "I am breathing"
